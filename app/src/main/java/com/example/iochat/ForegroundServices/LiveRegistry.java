@@ -2,10 +2,10 @@ package com.example.iochat.ForegroundServices;
 
 import androidx.lifecycle.LiveData;
 
+import java.util.HashMap;
 import java.util.List;
 
-public class LiveRegistry<K> extends LiveData<K>{
-
+public class LiveRegistry<K extends HashMap> extends LiveData<K>{
 
 
 
