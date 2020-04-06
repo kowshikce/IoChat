@@ -129,6 +129,7 @@ public class MainActivity extends AppCompatActivity implements ConnectionDialog.
             if(msg.arg1 == 0){
                 NotificationConfigObject config = new NotificationConfigObject(R.drawable.ic_launcher_foreground, "Service", "The Service Has Been Killed.");
                 SimpleNotification.showNotification(mContext, CHANNEL_ID, config);
+                Log.i(TAG, "args is 0");
             }else if(msg.arg1 == 1){
                 NotificationConfigObject config = new NotificationConfigObject(R.drawable.ic_launcher_foreground, "Service", "The Service Has Been Started.");
                 SimpleNotification.showNotification(mContext, CHANNEL_ID, config);
