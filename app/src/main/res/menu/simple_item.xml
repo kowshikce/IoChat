@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item_connect_id"
+        app:showAsAction="never"
+        android:title="@string/connect"
+        ></item>
+
+    <item
+        android:id="@+id/menu_item_show_notification_id"
+        android:title="Notifiation"
+        app:showAsAction="never"
+        >
+
+    </item>
+
+    <item
+        android:title="Download"
+        android:id="@+id/menu_item_download_progress_id"
+        app:showAsAction="never"
+        ></item>
+
+    <item
+        android:title="start"
+        android:id="@+id/menu_item_service_start_id"
+        app:showAsAction="never"
+        ></item>
+
+    <item
+        android:title="stop"
+        android:id="@+id/menu_item_service_stop_id"
+        app:showAsAction="never"
+        ></item>
+
+
+</menu>

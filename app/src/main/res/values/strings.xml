@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">IoChat</string>
+    <string name="connect_title">Connect to Server</string>
+    <string name="connect_message">IO-Connection will be established between your Device and Server Click to proceed.</string>
+    <string name="cancel">Cancel</string>
+    <string name="connect">Connect</string>
+    <string name="not_connected">Not Connected!</string>
+    <string name="channel_name">Basic Notification</string>
+    <string name="channel_description">Manages Notification For Users, That are of basic type.</string>
+    <string name="location_text">Location Updates Timely.</string>
+</resources>
